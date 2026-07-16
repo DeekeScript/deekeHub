@@ -1,0 +1,8 @@
+# 忽略不必要的文件，加快构建速度
+.git
+.gitignore
+README.md
+*.md
+.DS_Store
+*.log
+

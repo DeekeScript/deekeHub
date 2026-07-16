@@ -1,0 +1,41 @@
+{
+  "name": "ant-design-pro",
+  "version": "5.2.0",
+  "private": true,
+  "description": "An out-of-box UI solution for enterprise applications",
+  "scripts": {
+    "build": "cross-env NODE_OPTIONS=--openssl-legacy-provider umi build",
+    "postbuild": "node scripts/png-to-webp.js",
+    "dev": "cross-env NODE_OPTIONS=--openssl-legacy-provider REACT_APP_ENV=dev MOCK=none umi dev",
+    "postinstall": "umi setup",
+    "start:dev": "cross-env NODE_OPTIONS=--openssl-legacy-provider REACT_APP_ENV=dev MOCK=none umi dev",
+    "tsc": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^5.5.0",
+    "@ant-design/pro-components": "^2.8.0",
+    "@monaco-editor/react": "^4.7.0",
+    "@umijs/plugins": "^4.3.28",
+    "@umijs/route-utils": "^2.0.0",
+    "antd": "^5.21.0",
+    "classnames": "^2.3.0",
+    "cos-js-sdk-v5": "^1.4.16",
+    "lodash": "^4.17.0",
+    "moment": "^2.29.0",
+    "qrcode.react": "^3.1.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-helmet-async": "^1.2.0",
+    "umi": "^4.3.28"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "cross-env": "^7.0.0",
+    "sharp": "^0.35.3",
+    "typescript": "^4.5.0"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  }
+}
