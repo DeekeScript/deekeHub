@@ -16,7 +16,7 @@ DeekeHub 是一款专注于 **Android 群控、设备管理、自动化脚本执
 
 #### 首页截图
 
-![DeekeHub群控与自动化管理平台](./github/image.png)
+![DeekeHub群控与自动化管理平台](./github/webp/image.webp)
 
 
 #### 部署文档
@@ -28,4 +28,4 @@ DeekeHub 是一款专注于 **Android 群控、设备管理、自动化脚本执
 
 #### 进群交流
 
-![DeekeHub交流群](github/qq.png)
+![DeekeHub交流群](github/webp/qq.webp)
