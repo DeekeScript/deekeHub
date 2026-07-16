@@ -20,7 +20,10 @@ DeekeHub 是一款专注于 **Android 群控、设备管理、自动化脚本执
 
 
 #### 部署文档
-<a href='./DeekeHub.md'>查看部署文档</a>
+
+> 下载Android端APP：<a href='./github/v1.3.03-release.apk'>v1.3.03-release.apk</a>
+
+> DeekeHub后端部署文档：<a href='./DeekeHub.md'>查看部署文档</a>
 
 
 #### 进群交流

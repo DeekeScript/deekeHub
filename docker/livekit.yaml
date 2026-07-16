@@ -5,7 +5,7 @@ rtc:
   port_range_start: 7881
   port_range_end: 7882
   use_external_ip: false
-  node_ip: 192.168.1.150  #本地服务器ip地址 或者生产对外ip地址
+  node_ip: 192.168.1.100  #本地服务器ip地址 或者生产对外ip地址；局域网ip不能修改（非要改，请加群联系我们）
   #use_external_ip: true  生产配置，不需要node_ip
 redis:
   address: redis:6379

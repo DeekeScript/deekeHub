@@ -2,7 +2,9 @@
 
 #### 手机安装DeekeHub客户端
 
+> 安装前须知：因为Android端是基于局域网打包的，内部使用的地址是192.168.1.100，因此，你局域网的机器的ip地址也必须是192.168.1.100；如果确实无法调整你的机器ip，可以加群联系我们，会给你单独打包成你电脑的ip地址；另外docker/livekit.yaml文件里面的node_ip也一样必须是192.168.1.100
 
+> 下载Android端APP：<a href='./github/v1.3.03-release.apk'>v1.3.03-release.apk</a>
 
 #### 1.1 拉取deekeHub代码
 ```
@@ -74,7 +76,7 @@ vim livekit.yaml
 #服务器中的配置  如果是本地局域网，使用本地局域网ip即可（使用80端口）
 
 server {
-    listen 80;
+    listen 8080; #生产可以使用80或者443  局域网环境不用改这个值，否则APP请求不通
     server_name _;
 
     #443端口专用
