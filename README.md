@@ -28,4 +28,4 @@ DeekeHub 是一款专注于 **Android 群控、设备管理、自动化脚本执
 
 #### 进群交流
 
-![DeekeHub交流群](image.png)
+![DeekeHub交流群](github/qq.png)
