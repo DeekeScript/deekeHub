@@ -38,8 +38,9 @@ services:
 
   php:
     container_name: php
-    image: registry.cn-hangzhou.aliyuncs.com/jiangqiao/deeke:deeke-php-8.3.11-fpm-alpine-swoole-linux
-    #image: jiangqiao/php-7.2.33-fpm-banban-2021-11:latest
+    image: registry.cn-hangzhou.aliyuncs.com/jiangqiao/deeke:deeke-php-8.3.11-fpm-alpine-swoole
+    #如果是x86_64使用下面的镜像
+    #image: registry.cn-hangzhou.aliyuncs.com/jiangqiao/deeke:deeke-php-8.3.11-fpm-alpine-swoole-linux
     ports:
       - "9000:9000"
       - "9502:9502"
@@ -90,7 +91,9 @@ services:
 
   livekit:
     container_name: livekit
-    image: registry.cn-hangzhou.aliyuncs.com/jiangqiao/deeke:liveKitServer-amd64
+    image: registry.cn-hangzhou.aliyuncs.com/jiangqiao/deeke:liveKitServer
+    #如果是x86_64使用下面的镜像
+    #image: registry.cn-hangzhou.aliyuncs.com/jiangqiao/deeke:liveKitServer-amd64
     restart: unless-stopped
     ports:
       - "7880:7880"
